@@ -1,4 +1,4 @@
-package Items;
+package items.instruments;
 
 public abstract class Instrument{
     private String type;
