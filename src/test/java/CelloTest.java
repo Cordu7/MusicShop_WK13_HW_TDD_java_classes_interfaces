@@ -3,15 +3,16 @@ import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 
 public class CelloTest {
-
+    ArrayList<CelloString>celloStrings;
     Cello cello;
 
     @Before
 
-    HashMap<CelloString, Double> celloStrings = new HashMap<CelloString, Double>();
+   celloStrings = new ArrayList<CelloString>()
 
 
     cello = new Cello("Full sized Cello", "Toto", 18_000.00, 0.2 "Wood", celloStrings);
