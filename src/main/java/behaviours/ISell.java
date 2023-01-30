@@ -1,5 +1,6 @@
 package behaviours;
 
 public interface ISell {
-    public double canBuy();
+    public double calculateProfit();
+    public double calculateSellingPrice();
 }
