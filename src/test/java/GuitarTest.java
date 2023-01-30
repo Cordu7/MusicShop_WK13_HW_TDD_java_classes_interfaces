@@ -1,4 +1,5 @@
 import items.instruments.Cello;
+import items.instruments.Guitar;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -7,7 +8,7 @@ public class GuitarTest {
 
     Guitar guitar;
     public void before() {
-        guitar = new Cello( "May", 28_000.00, 0.2, 6);
+        guitar = new Guitar( "May", 28_000.00, 0.2, 6);
     }
 
     @Test
