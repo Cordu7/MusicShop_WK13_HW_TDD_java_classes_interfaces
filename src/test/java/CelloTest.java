@@ -4,7 +4,7 @@ import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
-//could refactor cello to taki in not cello string type enum  but cello string type product so that there is a price have not added price to enum since this always changes so if so wants to buy s a string they byu an cello string type class and on the cello there is the enum
+//could refactor cello to take in not cello string type enum  but cello string type product so that there is a price have not added price to enum since this always changes so if so wants to buy s a string they byu an cello string type class and on the cello there is the enum
 
 public class CelloTest {
 
