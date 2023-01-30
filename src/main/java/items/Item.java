@@ -4,7 +4,6 @@ import behaviours.ISell;
 
 public abstract class Item implements ISell {
 
-    private String type;
 
     private String make;
 
@@ -20,8 +19,8 @@ public abstract class Item implements ISell {
 
 
 
-    public Item(String type, String make, double priceBought, double markup){
-        this.type = type;
+    public Item(String make, double priceBought, double markup){
+
         this.make = make;
         this.priceBought = priceBought;
         this.markup = markup;
@@ -38,9 +37,7 @@ public abstract class Item implements ISell {
         return this.priceBought + this.profit;
     }
 
-    public String getType() {
-        return type;
-    }
+
 
     public String getMake() {
         return make;
